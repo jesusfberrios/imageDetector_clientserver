@@ -1,62 +1,58 @@
 # imageDetector_clientserver
+## Author: Jesús Berríos
 
-# DESARROLLO DE PROYECTOS Y PRODUCTOS DE DATOS
-# Tarea 1
-## Autor: Jesús Berríos
-## Prof. Alonso Astroza
+### ***This work's objective is to create a client-server infrastructure for image detection***
 
-**Este Trabajo está inspirado en la unidad 1 del curso [Introduction to Machine Learning in Production (DeepLearning.AI)](https://www.coursera.org/learn/introduction-to-machine-learning-in-production/home/welcome) y en la clase de Desarrollo de Productos de Datos del Prof. Alonso Astroza de la UDD**
-
-***El objetivo de este trabajo es expandir lo realizado en el Laboratorio de Implementación de un Modelo de Machine Learning visto en clase (Producto de Datos)***
-
-Para comenzar, se deben descargar los archivos a una carpeta y en el terminal de Anaconda llegar a ese directorio.
+To begin with, files must be downloaded to a folder, and it must be reachable from Anaconda terminal
 
 ```
 .
-└── pd-2021-lab (este directorio)
-    ├── images (incluye las imágenes a utilizar)
-    ├── server.ipynb (Código Server)
-    ├── client.ipynb (Código Cliente)
-    └── requirements.txt (dependencias de Python)
+└── pd-2021-lab (this folder)
+    ├── images (includes the images)
+    ├── server.ipynb (Server code)
+    ├── client_en.ipynb (Client code)
+    └── requirements.txt (Python dependencies)
 ```
  
+## Previous steps using Conda
  
-## Pasos previos usando Conda
+### Pre-requisites: Having [conda](https://docs.conda.io/en/latest/) installed in your computer.
  
-### Prerequisito: Tener [conda](https://docs.conda.io/en/latest/) instalado en tu computador.
- 
-Vamos a usar Conda para construir un entorno virtual nuevo.
- 
-### 1. Creando el entorno virtual (Virtual Environment)
- 
-Asumiremos que tenemos instalado conda. El primer paso es crear un nuevo enviroment para desarrollar. Para crear uno usando Python 3.7 debemos ejecutar el siguiente comando:
- 
+Conda will be used to build a new virtual environment.
+
+### 1. Creating the Virtual Environment
+
+After having conda installed, the first step will be to create a new environment, this can be done executing the following command:
+  
 ```bash
 conda create --name pd-2021-lab python=3.7
 ```
  
-Luego debemos activarlo usando el comando:
+Next, it must be activated by executing:
  
 ```bash
 conda activate pd-2021-lab
 ```
  
-Todo el trabajo que realicemos con este código será en este entorno. Así que al trabajarcon estos archivos siempre tiene que estar activo el ambiente pd-2021-lab.
+All the work to be done will be in this environment; therefore, when editing these files, the environment pd-2021-lab should be active.
+
+
+### 2. Installing dependencies 
  
-### 2. Instalando las dependencias usando PIP 
- 
-Antes de seguir, verifica que en el terminal de Anaconda estés dentro del directorio `pd-2021-lab`, el cual incluye el archivo `requirements.txt`. Este archivo enlista todas las dependencias necesarias y podemos usarlo para instalarlas todas:
- 
+Execite the following command, please ensure that it is executed inside the `pd-2021-lab` folder.
+
 ```bash
 pip install -r requirements.txt
 ```
+
+This execution may take some minutes... 
  
-Este comando puede demorar un rato dependiendo de la velocidad del computador y la de la conexión a Internet. Una vez que termine ya está listo todo para comenzar una sesión de Jupyter Lab o Notebook.
- 
-### 3. Iniciando Jupyter Lab
- 
-Jupyter lab debería haber quedado instalado en el paso anterior, así que basta con escribir:
+### 3. Starting Jupyter Lab
 
 ```bash
 jupyter lab
 ```
+
+
+--
+**This work was based on the unit 1 from the course (https://www.coursera.org/learn/introduction-to-machine-learning-in-production/home/welcome), as well as in the class "Desarrollo de Productos de Datos" from Prof. Alonso Astroza from UDD**
