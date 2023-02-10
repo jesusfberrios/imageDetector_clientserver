@@ -9,7 +9,7 @@ To begin with, files must be downloaded to a folder, and it must be reachable fr
 .
 └── pd-2021-lab (this folder)
     ├── images (includes the images)
-    ├── server.ipynb (Server code)
+    ├── server_en.ipynb (Server code)
     ├── client_en.ipynb (Client code)
     └── requirements.txt (Python dependencies)
 ```
@@ -55,4 +55,4 @@ jupyter lab
 
 
 --
-**This work was based on the unit 1 from the course (https://www.coursera.org/learn/introduction-to-machine-learning-in-production/home/welcome), as well as in the class "Desarrollo de Productos de Datos" from Prof. Alonso Astroza from UDD**
+<font size="5"> *This work was based on the unit 1 from the course (https://www.coursera.org/learn/introduction-to-machine-learning-in-production/home/welcome), as well as in the class "Desarrollo de Productos de Datos" from Prof. Alonso Astroza from UDD* </font>
