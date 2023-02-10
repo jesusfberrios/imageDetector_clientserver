@@ -55,4 +55,4 @@ jupyter lab
 
 
 --
-<font size="5"> *This work was based on the unit 1 from the course (https://www.coursera.org/learn/introduction-to-machine-learning-in-production/home/welcome), as well as in the class "Desarrollo de Productos de Datos" from Prof. Alonso Astroza from UDD* </font>
+<font size="2"> *This work was based on the unit 1 from the course (https://www.coursera.org/learn/introduction-to-machine-learning-in-production/home/welcome), as well as in the class "Desarrollo de Productos de Datos" from Prof. Alonso Astroza from UDD* </font>
